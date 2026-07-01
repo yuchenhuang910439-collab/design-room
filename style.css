@@ -1,0 +1,60 @@
+   *{padding: 0;
+margin: 0;}
+ @font-face {
+            font-family:"old";
+            src:url("京華老宋体v2.002.ttf")format('truetype');
+        }
+    @font-face {
+        font-family: "new";
+        src: url("LXGWWenKaiMonoTC-Regular.ttf")format('truetype');
+    }
+   header
+    {
+       
+        font-family:"new", sans-serif;
+        background-color:#c9dbf1;
+        height: 130px;
+        width: 100%;
+        background-size:100%;
+line-height: 25px;
+    }
+        header h1{
+        letter-spacing: 2px;
+        line-height: 130px;
+    }
+   main h2{
+        line-height: 30px;
+        padding-left:20px;
+    }
+    header ul{position: absolute;
+        right: 5vw;top: 0;
+        line-height: 130px;
+    font-size: 18px;}
+     header li{
+         
+        display: inline;margin-left:4vw;
+     }
+    footer{
+        background-color: #496380;
+        font-family:"new", sans-serif;
+        margin-top:10vw;
+        height: 60px;
+        color:white;
+    }
+    h2{
+        color: rgb(96, 53, 21);
+        font-size :20px;
+    }
+    footer p1,p2,p3{display: inline;margin-left: 4vw;
+    line-height: 60px;}
+    main p{margin-bottom: 50px;margin-left: 50px;margin-top: 10px;
+     font-family:"new", sans-serif;}
+footer p1{font-size: 18px;
+
+}
+
+main{font-family:"new", sans-serif;}
+main img{margin-right: 20px;
+
+}
+main video{margin-left: 20px;margin-right: 20px;}
